@@ -1,0 +1,390 @@
+.todo-box {
+    position: relative;
+    width: 700px;
+    height: 450px;
+    left: 270px;
+    top: 130px;
+    padding: 20px;
+    
+}
+
+.main-head{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.main-head1{
+    font-size: 25px;
+}
+
+.main-head-left{
+    
+    position: absolute;
+    left: 90px;
+    top: 23px;
+    
+}
+
+.main-head-font{
+    color: rgb(128, 122, 122);
+
+
+
+}
+
+.main-head-right{
+    position: absolute;
+    right: 123px;
+    top: 30px;
+}
+
+.icon{
+    color: #ff6a6a;
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(226, 78, 78);
+}
+
+.card1{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 96px;
+   top: 85px;
+    
+}
+
+.card2{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 292px;
+   top: 85px;
+    
+}
+
+.card3{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 490px;
+   top: 85px;
+    
+}
+
+.card-content1{
+    color: red;
+    text-decoration: line-through;
+    position: absolute;
+    left: 22px;
+    top: 62px;
+}
+
+.card-content2 {
+    position: absolute;
+    left: 0px;
+    top: 92px;
+}
+
+.trip-head-border{
+    width: 105px;
+    height: 30px;
+    position: absolute;
+    left: 26px;
+    top: 17px;
+    border-bottom: 2px solid grey;
+    
+}
+
+.pariscard-heading{
+    color: red;
+    padding-left: 30px;
+    
+}
+
+.paris-card-content1 {
+    color: red;
+    text-decoration: line-through;
+    position: absolute;
+    left: 93px;
+    top: 62px;
+}
+
+.paris-card-content2 {
+    
+    position: absolute;
+    left: 70px;
+    top: 90px;
+}
+   
+
+
+.back-btn {
+    position: absolute;
+    left: 362px;
+    top: 95px;
+}
+
+.paris-add-btn{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+}
+
+.paris-card {
+        width: 250px;
+        height: 203px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: absolute;
+        left: 242px;
+        top: 135px;
+    }
+
+.paris-head {
+        position: absolute;
+        left: 304px;
+        top: 50px;
+        font-size: 25px;
+        font-weight: 900;
+        background-color: white;
+}
+
+ .paris-head-line {
+        width: 211px;
+        height: 0px;
+        position: absolute;
+        left: 264px;
+        top: 64px;
+        border-bottom: 1px solid grey;
+}
+
+.paris-head-border {
+    width: 158px;
+    height: 30px;
+    position: absolute;
+    left: 92px;
+    top: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.back-icon{
+    position: absolute;
+    left: 340px;
+    top: 94px;
+    color: #ff6a6a;
+    font-size: 18px;
+    margin-right: 6px;
+
+}
+
+.todo-box-filter {
+    filter: blur(5px);
+}
+
+.add-list-box-border{
+        
+        position: relative;
+        width: 700px;
+        height: 450px;
+        left: 270px;
+        /* box-shadow: 1px -1px 1px  rgb(223, 207, 207); */
+        top: 130px;
+        padding: 20px;
+
+
+}
+
+
+.add-list {
+    text-align: center;
+    color: #ff6a6a;
+    padding: 10px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: fixed;
+    top: 250px;
+    left: 540px;
+    background: white;
+
+}
+
+
+.add-button {
+    width: 60px;
+    background-color: #ff6a6a;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius:20px;
+  }
+
+
+  .add-item {
+      width: 235px;
+    text-align: center;
+    color: #ff6a6a;
+    padding: 10px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: fixed;
+    top: 310px;
+    left: 530px;
+    background: white;
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width:380px) {
+    .todo-box {
+        position: relative;
+        width: 400px;
+        height: 450px;
+        left: 0px;
+        top: 0px;
+        padding: 20px;
+        
+    }
+    
+   
+    
+    .main-head-left{
+        
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        
+    }
+    
+   
+    
+    .main-head-right{
+        position: absolute;
+        right: 123px;
+        top: 22px;
+    }
+    
+   
+    
+    
+    .card1{
+        width: 345px;
+        height: 40px;
+        
+        position: absolute;
+        left: 0px;
+        top: 60px;
+        
+    }
+    
+    .card2{
+        width: 345px;
+        height: 40px;
+        position: absolute;
+        left: 0px;
+        top: 108px;
+        
+    }
+    
+    .card3{
+        width: 345px;
+        height: 40px;
+        position: absolute;
+        left: 0px;
+        top: 156px;
+        
+    }
+    
+    .card-content1{
+        display: none;
+    }
+    
+    .card-content2 {
+        display: none;
+    }
+
+    .trip-head-border{
+        left: 100px;
+        top: 10px;
+        border-bottom: none;
+    }
+
+
+
+    .paris-card {
+        width: 248px;
+        height: 190px;
+        position: absolute;
+        left: 25px;
+        top: 80px;
+    }
+
+.paris-head {
+    position: absolute;
+    left: 85px;
+    top: 20px;
+}
+
+ .paris-head-line {
+    position: absolute;
+    left: 40px;
+    top: 34px;
+}
+
+.back-icon{
+    position: absolute;
+    left: 125px;
+    top: 54px;
+
+}
+
+.back-btn {
+    position: absolute;
+    left: 150px;
+    top: 54px;   
+}
+
+.add-item {
+    width: 176px;
+    position: fixed;
+    top: 125px;
+    left: 80px;
+
+}
+
+.add-list {
+    padding: 10px;
+    position: fixed;
+    top: 115px;
+    left: 65px;
+
+}
+
+}
