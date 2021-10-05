@@ -388,3 +388,100 @@ a{
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:550px) and (max-width:950px){
+    .todo-box {
+        position: relative;
+        /* width: 700px;
+        height: 450px; */
+        left: 0px;
+        top: 0px;
+        /* padding: 20px; */
+        
+    }
+    
+           
+    .main-head-left{
+        
+        position: absolute;
+        left: 28px;
+        top: 20px;
+        
+    }
+    
+    
+    .main-head-right{
+        position: absolute;
+        right: 290px;
+        top: 24px;
+    }
+       
+    .card1{
+        width: 126px;
+    height: 170px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: absolute;
+    left: 45px;
+    top: 70px;
+        
+    }
+    
+    .card2{
+        width: 126px;
+    height: 172px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: absolute;
+    left: 195px;
+    top: 70px;
+        
+    }
+    
+    .card3{
+        width: 126px;
+        height: 176px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        /* box-shadow: 1px 1px 5px rgb(99 40 40); */
+        position: absolute;
+        left: 345px;
+        top: 68px;
+        
+    }
+
+    .add-item {
+        width: 232px;
+        position: fixed;
+        top: 179px;
+        left: 267px;
+    
+  
+  }
+
+  .add-list {
+    position: fixed;
+    top: 101px;
+    left: 179px;
+
+}
+    
+
+   
+
+}
